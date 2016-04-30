@@ -3,9 +3,9 @@ var repeater = null;
 function updateScoreForSeconds(seconds){
     document.getElementById("points").innerHTML = Math.floor(seconds / 60).toLocaleString();
     var total = seconds;
-    var hours = Math.floor(total / 1200);
+    var hours = Math.floor(total / 3600);
     document.getElementById("hours").innerHTML = hours;
-    total -= hours * 1200;
+    total -= hours * 3600;
     var minutes = Math.floor(total / 60);
     document.getElementById("minutes").innerHTML = minutes;
     total -= minutes * 60;
