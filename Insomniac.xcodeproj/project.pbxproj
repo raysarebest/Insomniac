@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C4D91331CD43B0E00DC038F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D91321CD43B0E00DC038F /* AppDelegate.swift */; };
+		4C4D91351CD43B0E00DC038F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D91341CD43B0E00DC038F /* ViewController.swift */; };
+		4C4D91381CD43B0E00DC038F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4D91361CD43B0E00DC038F /* Main.storyboard */; };
+		4C4D913B1CD43B0E00DC038F /* Insomniac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D91391CD43B0E00DC038F /* Insomniac.xcdatamodeld */; };
+		4C4D913D1CD43B0E00DC038F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4D913C1CD43B0E00DC038F /* Assets.xcassets */; };
+		4C4D91401CD43B0E00DC038F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4D913E1CD43B0E00DC038F /* LaunchScreen.storyboard */; };
+		4C4D914B1CD43B0E00DC038F /* InsomniacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D914A1CD43B0E00DC038F /* InsomniacTests.swift */; };
+		4C4D91561CD43B0E00DC038F /* InsomniacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D91551CD43B0E00DC038F /* InsomniacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C4D91471CD43B0E00DC038F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4D91271CD43B0E00DC038F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4D912E1CD43B0E00DC038F;
+			remoteInfo = Insomniac;
+		};
+		4C4D91521CD43B0E00DC038F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4D91271CD43B0E00DC038F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4D912E1CD43B0E00DC038F;
+			remoteInfo = Insomniac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C4D912F1CD43B0E00DC038F /* Insomniac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insomniac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4D91321CD43B0E00DC038F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C4D91341CD43B0E00DC038F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C4D91371CD43B0E00DC038F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C4D913A1CD43B0E00DC038F /* Insomniac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Insomniac.xcdatamodel; sourceTree = "<group>"; };
+		4C4D913C1CD43B0E00DC038F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C4D913F1CD43B0E00DC038F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C4D91411CD43B0E00DC038F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4D91461CD43B0E00DC038F /* InsomniacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsomniacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4D914A1CD43B0E00DC038F /* InsomniacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsomniacTests.swift; sourceTree = "<group>"; };
+		4C4D914C1CD43B0E00DC038F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4D91511CD43B0E00DC038F /* InsomniacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsomniacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4D91551CD43B0E00DC038F /* InsomniacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsomniacUITests.swift; sourceTree = "<group>"; };
+		4C4D91571CD43B0E00DC038F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4D912C1CD43B0E00DC038F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D91431CD43B0E00DC038F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D914E1CD43B0E00DC038F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4D91261CD43B0E00DC038F = {
+			isa = PBXGroup;
+			children = (
+				4C4D91311CD43B0E00DC038F /* Insomniac */,
+				4C4D91491CD43B0E00DC038F /* InsomniacTests */,
+				4C4D91541CD43B0E00DC038F /* InsomniacUITests */,
+				4C4D91301CD43B0E00DC038F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C4D91301CD43B0E00DC038F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C4D912F1CD43B0E00DC038F /* Insomniac.app */,
+				4C4D91461CD43B0E00DC038F /* InsomniacTests.xctest */,
+				4C4D91511CD43B0E00DC038F /* InsomniacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C4D91311CD43B0E00DC038F /* Insomniac */ = {
+			isa = PBXGroup;
+			children = (
+				4C4D91321CD43B0E00DC038F /* AppDelegate.swift */,
+				4C4D91341CD43B0E00DC038F /* ViewController.swift */,
+				4C4D91361CD43B0E00DC038F /* Main.storyboard */,
+				4C4D913C1CD43B0E00DC038F /* Assets.xcassets */,
+				4C4D913E1CD43B0E00DC038F /* LaunchScreen.storyboard */,
+				4C4D91411CD43B0E00DC038F /* Info.plist */,
+				4C4D91391CD43B0E00DC038F /* Insomniac.xcdatamodeld */,
+			);
+			path = Insomniac;
+			sourceTree = "<group>";
+		};
+		4C4D91491CD43B0E00DC038F /* InsomniacTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4D914A1CD43B0E00DC038F /* InsomniacTests.swift */,
+				4C4D914C1CD43B0E00DC038F /* Info.plist */,
+			);
+			path = InsomniacTests;
+			sourceTree = "<group>";
+		};
+		4C4D91541CD43B0E00DC038F /* InsomniacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4D91551CD43B0E00DC038F /* InsomniacUITests.swift */,
+				4C4D91571CD43B0E00DC038F /* Info.plist */,
+			);
+			path = InsomniacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C4D912E1CD43B0E00DC038F /* Insomniac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4D915A1CD43B0E00DC038F /* Build configuration list for PBXNativeTarget "Insomniac" */;
+			buildPhases = (
+				4C4D912B1CD43B0E00DC038F /* Sources */,
+				4C4D912C1CD43B0E00DC038F /* Frameworks */,
+				4C4D912D1CD43B0E00DC038F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Insomniac;
+			productName = Insomniac;
+			productReference = 4C4D912F1CD43B0E00DC038F /* Insomniac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C4D91451CD43B0E00DC038F /* InsomniacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4D915D1CD43B0E00DC038F /* Build configuration list for PBXNativeTarget "InsomniacTests" */;
+			buildPhases = (
+				4C4D91421CD43B0E00DC038F /* Sources */,
+				4C4D91431CD43B0E00DC038F /* Frameworks */,
+				4C4D91441CD43B0E00DC038F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4D91481CD43B0E00DC038F /* PBXTargetDependency */,
+			);
+			name = InsomniacTests;
+			productName = InsomniacTests;
+			productReference = 4C4D91461CD43B0E00DC038F /* InsomniacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C4D91501CD43B0E00DC038F /* InsomniacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4D91601CD43B0E00DC038F /* Build configuration list for PBXNativeTarget "InsomniacUITests" */;
+			buildPhases = (
+				4C4D914D1CD43B0E00DC038F /* Sources */,
+				4C4D914E1CD43B0E00DC038F /* Frameworks */,
+				4C4D914F1CD43B0E00DC038F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4D91531CD43B0E00DC038F /* PBXTargetDependency */,
+			);
+			name = InsomniacUITests;
+			productName = InsomniacUITests;
+			productReference = 4C4D91511CD43B0E00DC038F /* InsomniacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4D91271CD43B0E00DC038F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michael Hulet";
+				TargetAttributes = {
+					4C4D912E1CD43B0E00DC038F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4C4D91451CD43B0E00DC038F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4C4D912E1CD43B0E00DC038F;
+					};
+					4C4D91501CD43B0E00DC038F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4C4D912E1CD43B0E00DC038F;
+					};
+				};
+			};
+			buildConfigurationList = 4C4D912A1CD43B0E00DC038F /* Build configuration list for PBXProject "Insomniac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C4D91261CD43B0E00DC038F;
+			productRefGroup = 4C4D91301CD43B0E00DC038F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C4D912E1CD43B0E00DC038F /* Insomniac */,
+				4C4D91451CD43B0E00DC038F /* InsomniacTests */,
+				4C4D91501CD43B0E00DC038F /* InsomniacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C4D912D1CD43B0E00DC038F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4D91401CD43B0E00DC038F /* LaunchScreen.storyboard in Resources */,
+				4C4D913D1CD43B0E00DC038F /* Assets.xcassets in Resources */,
+				4C4D91381CD43B0E00DC038F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D91441CD43B0E00DC038F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D914F1CD43B0E00DC038F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4D912B1CD43B0E00DC038F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4D91351CD43B0E00DC038F /* ViewController.swift in Sources */,
+				4C4D91331CD43B0E00DC038F /* AppDelegate.swift in Sources */,
+				4C4D913B1CD43B0E00DC038F /* Insomniac.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D91421CD43B0E00DC038F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4D914B1CD43B0E00DC038F /* InsomniacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D914D1CD43B0E00DC038F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4D91561CD43B0E00DC038F /* InsomniacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4D91481CD43B0E00DC038F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4D912E1CD43B0E00DC038F /* Insomniac */;
+			targetProxy = 4C4D91471CD43B0E00DC038F /* PBXContainerItemProxy */;
+		};
+		4C4D91531CD43B0E00DC038F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4D912E1CD43B0E00DC038F /* Insomniac */;
+			targetProxy = 4C4D91521CD43B0E00DC038F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C4D91361CD43B0E00DC038F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4D91371CD43B0E00DC038F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C4D913E1CD43B0E00DC038F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4D913F1CD43B0E00DC038F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C4D91581CD43B0E00DC038F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C4D91591CD43B0E00DC038F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C4D915B1CD43B0E00DC038F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Insomniac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.hulet.michael.Insomniac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C4D915C1CD43B0E00DC038F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Insomniac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.hulet.michael.Insomniac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C4D915E1CD43B0E00DC038F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsomniacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.hulet.michael.InsomniacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insomniac.app/Insomniac";
+			};
+			name = Debug;
+		};
+		4C4D915F1CD43B0E00DC038F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsomniacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.hulet.michael.InsomniacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insomniac.app/Insomniac";
+			};
+			name = Release;
+		};
+		4C4D91611CD43B0E00DC038F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsomniacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.hulet.michael.InsomniacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Insomniac;
+			};
+			name = Debug;
+		};
+		4C4D91621CD43B0E00DC038F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsomniacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.hulet.michael.InsomniacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Insomniac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4D912A1CD43B0E00DC038F /* Build configuration list for PBXProject "Insomniac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4D91581CD43B0E00DC038F /* Debug */,
+				4C4D91591CD43B0E00DC038F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4D915A1CD43B0E00DC038F /* Build configuration list for PBXNativeTarget "Insomniac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4D915B1CD43B0E00DC038F /* Debug */,
+				4C4D915C1CD43B0E00DC038F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C4D915D1CD43B0E00DC038F /* Build configuration list for PBXNativeTarget "InsomniacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4D915E1CD43B0E00DC038F /* Debug */,
+				4C4D915F1CD43B0E00DC038F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C4D91601CD43B0E00DC038F /* Build configuration list for PBXNativeTarget "InsomniacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4D91611CD43B0E00DC038F /* Debug */,
+				4C4D91621CD43B0E00DC038F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C4D91391CD43B0E00DC038F /* Insomniac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C4D913A1CD43B0E00DC038F /* Insomniac.xcdatamodel */,
+			);
+			currentVersion = 4C4D913A1CD43B0E00DC038F /* Insomniac.xcdatamodel */;
+			path = Insomniac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C4D91271CD43B0E00DC038F /* Project object */;
+}
