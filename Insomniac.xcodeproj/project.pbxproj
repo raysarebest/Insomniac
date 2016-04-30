@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C4D91331CD43B0E00DC038F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D91321CD43B0E00DC038F /* AppDelegate.swift */; };
-		4C4D91351CD43B0E00DC038F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D91341CD43B0E00DC038F /* ViewController.swift */; };
+		4C4D91331CD43B0E00DC038F /* MHAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D91321CD43B0E00DC038F /* MHAppDelegate.swift */; };
+		4C4D91351CD43B0E00DC038F /* MHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D91341CD43B0E00DC038F /* MHViewController.swift */; };
 		4C4D91381CD43B0E00DC038F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4D91361CD43B0E00DC038F /* Main.storyboard */; };
 		4C4D913B1CD43B0E00DC038F /* Insomniac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D91391CD43B0E00DC038F /* Insomniac.xcdatamodeld */; };
 		4C4D913D1CD43B0E00DC038F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4D913C1CD43B0E00DC038F /* Assets.xcassets */; };
@@ -36,8 +36,8 @@
 
 /* Begin PBXFileReference section */
 		4C4D912F1CD43B0E00DC038F /* Insomniac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insomniac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C4D91321CD43B0E00DC038F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C4D91341CD43B0E00DC038F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C4D91321CD43B0E00DC038F /* MHAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAppDelegate.swift; sourceTree = "<group>"; };
+		4C4D91341CD43B0E00DC038F /* MHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHViewController.swift; sourceTree = "<group>"; };
 		4C4D91371CD43B0E00DC038F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C4D913A1CD43B0E00DC038F /* Insomniac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Insomniac.xcdatamodel; sourceTree = "<group>"; };
 		4C4D913C1CD43B0E00DC038F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 		4C4D91311CD43B0E00DC038F /* Insomniac */ = {
 			isa = PBXGroup;
 			children = (
-				4C4D91321CD43B0E00DC038F /* AppDelegate.swift */,
-				4C4D91341CD43B0E00DC038F /* ViewController.swift */,
+				4C4D91321CD43B0E00DC038F /* MHAppDelegate.swift */,
+				4C4D91341CD43B0E00DC038F /* MHViewController.swift */,
 				4C4D91361CD43B0E00DC038F /* Main.storyboard */,
 				4C4D913C1CD43B0E00DC038F /* Assets.xcassets */,
 				4C4D913E1CD43B0E00DC038F /* LaunchScreen.storyboard */,
@@ -190,6 +190,7 @@
 		4C4D91271CD43B0E00DC038F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MH;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Michael Hulet";
@@ -259,8 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C4D91351CD43B0E00DC038F /* ViewController.swift in Sources */,
-				4C4D91331CD43B0E00DC038F /* AppDelegate.swift in Sources */,
+				4C4D91351CD43B0E00DC038F /* MHViewController.swift in Sources */,
+				4C4D91331CD43B0E00DC038F /* MHAppDelegate.swift in Sources */,
 				4C4D913B1CD43B0E00DC038F /* Insomniac.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
