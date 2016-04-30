@@ -5,6 +5,10 @@ html{
     background-size: 100%;
 }
 
+body {
+    margin-bottom: 40px;
+}
+
 html.night{
     background: rgb(86,8,86); /* Old browsers */
     background: -moz-linear-gradient(45deg, rgba(86,8,86,1) 0%, rgba(159,29,173,1) 100%); /* FF3.6-15 */
@@ -17,7 +21,14 @@ html.night{
 }
 
 html.day{
-    
+    background: rgb(234,125,16); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(234,125,16,1) 0%, rgba(255,230,43,1) 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(234,125,16,1)), color-stop(100%,rgba(255,230,43,1))); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(45deg, rgba(234,125,16,1) 0%,rgba(255,230,43,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(45deg, rgba(234,125,16,1) 0%,rgba(255,230,43,1) 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(45deg, rgba(234,125,16,1) 0%,rgba(255,230,43,1) 100%); /* IE10 preview */
+    background: linear-gradient(45deg, rgba(234,125,16,1) 0%,rgba(255,230,43,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea7d10', endColorstr='#ffe62b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 h1{
@@ -27,6 +38,7 @@ h1{
 
 h3{
     font-size: 5em;
+    margin-bottom: -5%;
 }
 
 p{
@@ -45,6 +57,7 @@ noscript{
 }
 
 #toggle-button{
+    font-family: 'Amatic SC', cursive;
     border-radius: 10px;
     background-color: #000; /* Green */
     -webkit-box-shadow: 0 0 10px 10px #000;
@@ -57,10 +70,15 @@ noscript{
     cursor: pointer;
     max-width: 600px;
     width: 50%;
+    letter-spacing: 3px;
 }
 
-#toggle-button:active{
+#toggle-button.night:active{
     color: rgb(159, 29, 173);
+}
+
+#toggle-button.day:active{
+    color: rgb(255, 230, 33);
 }
 
 #moon {
